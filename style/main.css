@@ -1,0 +1,141 @@
+:root{
+   --preto: #141414;
+    --vermelho: #e50914;
+
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background:var(--preto);
+    font-family: 'arial', Times, serif;
+    color:white;
+}
+header .logo{
+    margin-left: 5px;
+    color:var(--vermelho);
+    font-family: "arial black", Times;
+    font-size: 40px;
+}
+
+header nav a{
+    text-decoration: none;
+    color:#AAA;
+    margin-right: 10px;
+}
+
+/*colocamos o :hover que funciona como uma função mouseon para mudar a cor*/
+header nav a:hover{
+    color:#fff;
+}
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.filme-principal{
+    font-size: 16px;
+    background-image: url(img/bannerofc.jpg);
+    padding-left: 10px;
+    margin-bottom: 10px;
+
+    height:500px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+
+.descricao{
+    margin-bottom: 30px;}
+
+.titulo{
+    margin-bottom: 40px;
+    margin-top: 15px;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/*A função transition causa uma leve suavidade para a animação */
+.botao{
+    background-color: rgba(0,0,0,.50);
+    color: white;
+    border: none;
+
+    padding: 15px;
+    transition: .3s ease all;
+    border-radius: 10px;
+}
+
+.botao:hover{
+    background-color: white;
+    color: var(--preto);
+
+}
+
+.botao i {
+    margin-right: 5px;
+}
+
+.filme-principal .container{
+    width: 65%;
+}
+
+.box-animes{
+    width: 100% ;
+    height: 100%;
+    display:block;
+}
+.teste {
+    text-decoration: none;
+    color: white;
+}
+.teste2{
+    text-decoration: none;
+    color: white;
+}
+
+.container2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+
+
+.both{
+    background-image: url(img/background.jpg);
+    height: 550px;
+
+
+    justify-content: center;
+    display: flex;
+    align-items: flex-start;
+    background-size: cover;
+}
+
+.newtitulo{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.newsinopse{
+    width: 50%;
+}
+
+.text{
+    margin-top: 10px;
+
+}
